@@ -2,14 +2,14 @@ body {
   background: rgba(0, 0, 0, 0.9);
   margin: 0;
   color: #fff;
-  font-family: 'Arial', Helvetica, sans-serif;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 
 .showcase::after {
-  content: '';
+  content: "";
   height: 100vh;
   width: 100%;
-  background-image: url(http://gdurl.com/8eDho);
+  background-image: url(showcase.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,4 +22,22 @@ body {
 .showcase:hover::after {
   filter: blur(0px);
   -webkit-filter: blur(0px);
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  left: 50%;
+  margin-top: 105px;
+  margin-left: -145px;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  transition: all 1000ms;
+}
+
+.content .logo {
+  height: 180px;
+  width: 180px;
 }

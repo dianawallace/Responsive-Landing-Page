@@ -109,4 +109,13 @@ footer p {
     top: 5%;
     margin-top: 10px;
   }
+
+  .content .logo {
+    height: 140px;
+    width: 140px;
+  }
+
+  .content .text {
+    display: none;
+  }
 }

@@ -69,3 +69,18 @@ body {
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
 }
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: rgb(219, 72, 90);
+}
+
+.bg-dark {
+  background: rgb(219, 72, 90);
+  color: #f4f4f4;
+}

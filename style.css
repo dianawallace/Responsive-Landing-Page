@@ -107,7 +107,7 @@ footer p {
 
   .content {
     top: 5%;
-    margin-top: 10px;
+    margin-top: 25px;
   }
 
   .content .logo {
@@ -119,7 +119,13 @@ footer p {
     display: none;
   }
 
-  .grid-3 {
+  .grid-3,
+  .grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .services div {
+    border-bottom: #fff dashed 1px;
+    padding: 1.2rem 1rem;
   }
 }

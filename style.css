@@ -107,7 +107,7 @@ footer p {
 
   .content {
     top: 5%;
-    margin-top: 25px;
+    margin-top: 5px;
   }
 
   .content .logo {
@@ -127,5 +127,18 @@ footer p {
   .services div {
     border-bottom: #fff dashed 1px;
     padding: 1.2rem 1rem;
+  }
+}
+
+/* Landscape */
+@media(max-height: 500px) {
+
+  .content .title,
+  .content .text {
+    display: none;
+  }
+
+  .content {
+    top: 0;
   }
 }
